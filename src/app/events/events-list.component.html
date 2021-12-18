@@ -1,11 +1,10 @@
 
   <div>
-  <h1>Upcoming Angular Events</h1>
+  <h1>Upcoming Events</h1>
   <hr/>
- <event-thumbnail
+ <event-thumbnail *ngFor="let event of events"  [event]="event"
  #thumbnail
- [event]="event1"
- [persona]="Diego">
+>
 </event-thumbnail>
 
 
