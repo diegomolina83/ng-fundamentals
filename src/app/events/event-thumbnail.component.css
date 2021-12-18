@@ -4,3 +4,19 @@
 .well div {
   color: #bbb;
 }
+
+.thumbnail {
+  min-height: 210px;
+}
+
+.green {
+  color: #63f163 !important;
+}
+
+.red {
+  color: red !important;
+}
+
+.bold {
+  font-weight: bold;
+}
